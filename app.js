@@ -8,5 +8,5 @@ app.use('/user', UserController);
 
 var VendorController = require('./VendorController');
 app.use('/vendor', UserController);
-
+ 
 module.exports = app;
