@@ -7,6 +7,6 @@ var UserController = require('./UserController');
 app.use('/user', UserController);
 
 var VendorController = require('./VendorController');
-app.use('/vendor', UserController);
- 
+app.use('/vendor', VendorController);
+
 module.exports = app;
