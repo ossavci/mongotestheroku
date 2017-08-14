@@ -1,9 +1,9 @@
 // app.js
 var express = require('express');
 var app = express();
-var db = require('./db');
+var db = require('./js/db');
 
-var UserController = require('./UserController');
-app.use('/user', UserController);
+var UserController = require('./js/UserController');
+app.use('/js/user', UserController);
 
 module.exports = app;
