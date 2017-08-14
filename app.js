@@ -6,4 +6,7 @@ var db = require('./db');
 var UserController = require('./UserController');
 app.use('/user', UserController);
 
+var VendorController = require('./VendorController');
+app.use('/vendor', UserController);
+
 module.exports = app;
